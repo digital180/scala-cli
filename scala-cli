@@ -22,4 +22,4 @@ if [ ! -x "$LAUNCHER_DIR/scala-cli" ]; then
 fi
 
 export PATH="$LAUNCHER_DIR:$PATH"
-exec scala-cli "$@"
+exec scala-cli "$@"start
